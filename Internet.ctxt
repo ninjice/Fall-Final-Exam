@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Internet
+comment1.params=chair\ nn
+comment1.target=Internet(FccChairman,\ boolean)
+comment2.params=bool
+comment2.target=void\ setNetNeut(boolean)
+numComments=3
