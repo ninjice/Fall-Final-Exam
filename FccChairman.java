@@ -2,8 +2,12 @@
 
 public class FccChairman
 {
+    //instance variables 
     private String name;
     private boolean bad;
+    
+    //static variable
+    public static String organization = "Fcc";
     
     public FccChairman(String nm, boolean bd)
     {
@@ -33,5 +37,9 @@ public class FccChairman
     
     public void endNetNeutrality(){
         this.bad = true;
+    }
+    
+    public String toString(){
+        return(this.name + " is chairman of the " + organization + " and is " + this.bad);
     }
 }
