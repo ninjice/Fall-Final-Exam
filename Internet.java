@@ -18,5 +18,7 @@ public class Internet
     public void setNetNeut(boolean bool){
         this.netNeutrality = bool;
     }
+    
+    
 }
 

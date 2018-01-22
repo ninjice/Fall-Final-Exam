@@ -1,10 +1,14 @@
-//This is the Ajit Pai Driver (get it? :D)
+//This is the FCC chairman Driver (get it? :D)
 public class VerizonWireless
 {
     
-    public VerizonWireless()
+    public static void main(String[] args)
     {
         
     }
     
+    public FccChairman fireAjitPai(){
+        FccChairman ajit = new FccChairman("Ajit Pai", true);
+        return ajit;
+    }
 }

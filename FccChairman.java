@@ -39,6 +39,10 @@ public class FccChairman
         this.bad = true;
     }
     
+    public String insultToInjury(){
+        return "7 Things You Can Still Do After Net Neutrality";
+    }
+    
     public String toString(){
         return(this.name + " is chairman of the " + organization + " and is " + this.bad);
     }
