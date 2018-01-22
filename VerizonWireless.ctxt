@@ -2,6 +2,6 @@
 comment0.target=VerizonWireless
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-comment2.params=
-comment2.target=FccChairman\ fireAjitPai()
+comment2.params=obj1\ obj2
+comment2.target=void\ changeIt(FccChairman,\ FccChairman)
 numComments=3

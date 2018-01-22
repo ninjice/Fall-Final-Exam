@@ -4,11 +4,11 @@ public class VerizonWireless
     
     public static void main(String[] args)
     {
-        
+        FccChairman ajit = new FccChairman("Ajit Pai", true);
+        FccChairman anyoneElse = new FccChairman("Literally anyone else", false);
     }
     
-    public FccChairman fireAjitPai(){
-        FccChairman ajit = new FccChairman("Ajit Pai", true);
-        return ajit;
+    public static void changeIt(FccChairman obj1, FccChairman obj2){
+    
     }
 }
